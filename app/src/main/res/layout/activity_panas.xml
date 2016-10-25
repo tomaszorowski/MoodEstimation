@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tomek.moodestimation.Panas">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:weightSum="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Panas"
+                android:id="@+id/titlePanas"
+                android:layout_weight="0.11"
+                style="@android:style/TextAppearance.Large"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="281dp"
+                android:layout_height="44dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="How are you feeling?"
+                android:id="@+id/textPanasDescription" />
+
+            <TextView
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0%- at all 100%- exactly"
+                android:id="@+id/textPanasDescription1"
+                android:layout_weight="0.15" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarInterested"
+                android:layout_weight="0.11"
+                android:indeterminate="false" />
+
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Interested"
+                android:id="@+id/textInterested"
+                android:textAlignment="center" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarDistressed"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Distressed"
+                android:id="@+id/textDistressed"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarExcited"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Excited"
+                android:id="@+id/textExcited"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarRestless"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Restless"
+                android:id="@+id/textRestless"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarStrong"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Strong"
+                android:id="@+id/textStrong"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarGuilty"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Guilty"
+                android:id="@+id/textGuilty"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarScared"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Scared"
+                android:id="@+id/textScared"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarEnemy"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Enemy"
+                android:id="@+id/textEnemy"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarEnthusiastic"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Enthusiastic"
+                android:id="@+id/textEnthusiastic"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarPetulant"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Petulant"
+                android:id="@+id/textPetulant"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarAlert"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Alert"
+                android:id="@+id/textAlert"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarEmbarassed"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Embarassed"
+                android:id="@+id/textEmbarassed"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarInspired"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Inspired"
+                android:id="@+id/textInspired"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarAngry"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Angry"
+                android:id="@+id/textAngry"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarDetermined"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Determined"
+                android:id="@+id/textDetermined"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarFocused"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Focused"
+                android:id="@+id/textFocused"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarJittery"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Jittery"
+                android:id="@+id/textJittery"
+                android:textAlignment="center" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarActive"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Active"
+                android:id="@+id/textActive"
+                android:textAlignment="center" />
+            <Button
+                android:layout_width="270dp"
+                android:layout_height="64dp"
+                android:text="Save"
+                android:id="@+id/savePanas"
+                android:onClick="savePanas"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
