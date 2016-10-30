@@ -3,6 +3,7 @@
     package="com.example.tomek.moodestimation">
 
     <application
+        android:name="com.example.tomek.moodestimation.ApplicationGlobalVariables"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,14 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- <activity android:name=".Menu"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
         <activity android:name=".Menu" />
         <activity android:name=".SignUp" />
         <activity android:name=".AddMood" />

@@ -7,16 +7,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.util.Log;
+import android.widget.Button;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 
 public class AddMood extends AppCompatActivity {
-
+    //ApplicationGlobalVariables app = (ApplicationGlobalVariables)this.getApplicationContext();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_mood);
     }
-    //sprawdza które scale zaznaczone w opcjach i tworzy widok
-    public void choseProperScales(){}
     public void goToSpaneActivity(View view){
         Intent intent = new Intent(this, Spane.class);
         startActivity(intent);
@@ -38,4 +39,5 @@ public class AddMood extends AppCompatActivity {
         Intent intent = new Intent(this, Menu.class);
         startActivity(intent);
     }
+
 }

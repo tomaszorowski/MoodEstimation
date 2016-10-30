@@ -12,34 +12,56 @@ import android.view.View;
 import android.widget.CheckBox;
 
 public class ManageDisplayedScales extends AppCompatActivity {
-    private String spane,panas,pam,image,radio,slider;
-
+    private CheckBox spaneCheckBox,sliderSpaneCheckBox,radioSpaneCheckBox,imageSpaneCheckBox,panasCheckBox,
+            sliderPanasCheckBox,radioPanasCheckBox,pamCheckBox,imagePanasCheckBox;
+    private ApplicationGlobalVariables app;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manage_displayed_scale);
-        final CheckBox panasCheckBox = (CheckBox) findViewById(R.id.panasCheckBox);
-        final CheckBox pamCheckBox = (CheckBox) findViewById(R.id.pamCheckBox);
-
+        spaneCheckBox = (CheckBox) findViewById(R.id.spaneCheckBox);
+        sliderSpaneCheckBox = (CheckBox) findViewById(R.id.sliderSpaneCheckBox);
+        radioSpaneCheckBox = (CheckBox) findViewById(R.id.radioSpaneCheckBox);
+        imageSpaneCheckBox = (CheckBox) findViewById(R.id.imageSpaneCheckBox);
+        panasCheckBox = (CheckBox) findViewById(R.id.panasCheckBox);
+        sliderPanasCheckBox = (CheckBox) findViewById(R.id.sliderPanasCheckBox);
+        radioPanasCheckBox = (CheckBox) findViewById(R.id.radioPanasCheckBox);
+        imagePanasCheckBox = (CheckBox) findViewById(R.id.imagePanasCheckBox);
+        pamCheckBox = (CheckBox) findViewById(R.id.pamCheckBox);
+        app = (ApplicationGlobalVariables)getApplicationContext();
+        setCheckBoxes();
     }
     public void saveManagement(View view){
-        DatabaseHelper dh = new DatabaseHelper(this);
-        SQLiteDatabase db = dh.getWritableDatabase();
-        final CheckBox spaneCheckBox = (CheckBox) findViewById(R.id.spaneCheckBox);
-        final CheckBox sliderSpaneCheckBox = (CheckBox) findViewById(R.id.sliderSpaneCheckBox);
-        final CheckBox radioSpaneCheckBox = (CheckBox) findViewById(R.id.radioSpaneCheckBox);
-        final CheckBox imageSpaneCheckBox = (CheckBox) findViewById(R.id.imageSpaneCheckBox);
         if(spaneCheckBox.isChecked()) {
-            if(sliderSpaneCheckBox.isChecked())slider="true";
-            if(radioSpaneCheckBox.isChecked())radio="true";
-            if(imageSpaneCheckBox.isChecked())image="true";
-            ContentValues values = new ContentValues();
-            values.put("SCALE_NAME", "Spane");
-            values.put("SLIDER", slider);
-            values.put("RADIO", radio);
-            values.put("IMAGE", image);
-            db.insertOrThrow("Option", null, values);
+            app.setOption("spane","true");
+            if(sliderSpaneCheckBox.isChecked())app.setOption("sliderSpane","true");
+            if(radioSpaneCheckBox.isChecked())app.setOption("radioSpane","true");
+            if(imageSpaneCheckBox.isChecked())app.setOption("imageSpane","true");
+        }
+        if(panasCheckBox.isChecked()) {
+            app.setOption("panas","true");
+            if(sliderPanasCheckBox.isChecked())app.setOption("sliderPanas","true");
+            if(radioPanasCheckBox.isChecked())app.setOption("radioPanas","true");
+            if(imagePanasCheckBox.isChecked())app.setOption("imagePanas","true");
+        }
+        if(pamCheckBox.isChecked())app.setOption("pam","true");
+    }
+    public void setCheckBoxes(){
+        if(app.getOptionValue("spane").contentEquals("true")){
+            spaneCheckBox.setChecked(true);
+            if(app.getOptionValue("sliderSpane").contentEquals("true"))sliderSpaneCheckBox.setChecked(true);
+            if(app.getOptionValue("radioSpane").contentEquals("true"))radioSpaneCheckBox.setChecked(true);
+            if(app.getOptionValue("imageSpane").contentEquals("true"))imageSpaneCheckBox.setChecked(true);
+        }
+        if(app.getOptionValue("panas").contentEquals("true")){
+            spaneCheckBox.setChecked(true);
+            if(app.getOptionValue("sliderPanas").contentEquals("true"))sliderPanasCheckBox.setChecked(true);
+            if(app.getOptionValue("radioPanas").contentEquals("true"))radioPanasCheckBox.setChecked(true);
+            if(app.getOptionValue("imagePanas").contentEquals("true"))imagePanasCheckBox.setChecked(true);
+        }
+        if(app.getOptionValue("pam").contentEquals("true")){
+            pamCheckBox.setChecked(true);
         }
     }
     public void goToOptions(View view){

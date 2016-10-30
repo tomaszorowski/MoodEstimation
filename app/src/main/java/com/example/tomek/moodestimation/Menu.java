@@ -15,8 +15,6 @@ public class Menu extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        //this.deleteDatabase("PatientDatabase");
-
     }
     public void goToAddMoodActivity(View view){
         Intent intent = new Intent(this, AddMood.class);
