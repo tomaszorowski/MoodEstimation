@@ -55,7 +55,6 @@ public class Pam extends AppCompatActivity {
                 button.setPadding(0, 0, 0, 0);
                 button.setMaxWidth(160);
                 button.setMinWidth(160);
-
                 button.setMinHeight(200);
                 button.setMaxHeight(200);
                 button.setOnClickListener(new View.OnClickListener() {

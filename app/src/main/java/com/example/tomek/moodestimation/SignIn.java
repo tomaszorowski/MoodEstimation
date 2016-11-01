@@ -73,10 +73,8 @@ public class SignIn extends AppCompatActivity {
             usernameEt.setError("User doesn't exists");
         }
         if(counter==0&&finded){
-            SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
-            SharedPreferences.Editor editor = pref.edit();
-            editor.putInt("patient_id", patient.getIdPatient());
-            editor.commit();
+            ApplicationGlobalVariables app = (ApplicationGlobalVariables)this.getApplicationContext();
+            app.setRunned();
             Intent intent = new Intent(this, Menu.class);
             startActivity(intent);
         }
