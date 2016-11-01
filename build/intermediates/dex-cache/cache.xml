@@ -3,21 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_e5ef9f029851a91a26192d1fc69d333972c1a36b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
         <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_ad2146d149c5fd30848c66c2b56c156367727b99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_c43500cc2567edd0a91f5adfe08812199ac88d57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hp\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_034c0eaac58cf90e5aa02450dde7e9a04e417b1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_e5ef9f029851a91a26192d1fc69d333972c1a36b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -34,17 +52,8 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="a7ab2b31ca292abe2f246b7deff4c38cb1eff125">
+        sha1="ae3e06cd3ac8921ac2590a9ebccb75c0e648b393">
         <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_943e61c22602fc1b64f3ceee91b5e046a84a6882\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_c43500cc2567edd0a91f5adfe08812199ac88d57\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,20 +66,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Hp\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_034c0eaac58cf90e5aa02450dde7e9a04e417b1a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="aa796b532fb21ae741b1a1a92beb8af476e0a5ec">
+        sha1="890de3fc7e4946db588a24ebab5a7facf44b0789">
         <dex dex="C:\Users\Hp\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f1b8eb1bf21243df168f56ade48e1e0d9d777493\classes.dex" />
     </item>
 

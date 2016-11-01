@@ -56,42 +56,5 @@ public class ApplicationGlobalVariables extends Application {
 
         return mPref.getString(key,"Brak opcji dla klucza: "+ key);
     }
-    protected void populateButtons(int NUM_ROWS, int NUM_COLS, TableLayout table) {
-        Button buttons[][] = new Button[NUM_ROWS][NUM_COLS];
-        for(int row=0; row< NUM_ROWS; row++){
 
-            TableRow tableRow = new TableRow(this);
-            tableRow.setLayoutParams(new TableLayout.LayoutParams(
-                    TableLayout.LayoutParams.MATCH_PARENT,
-                    TableLayout.LayoutParams.MATCH_PARENT,
-                    1.0f));
-            table.addView(tableRow);
-
-            for(int col = 0; col < NUM_COLS; col++){
-                final int ROW =row;
-                final int COL=col;
-
-                Button button = new Button(this);
-                button.setLayoutParams(new TableRow.LayoutParams(
-                        TableRow.LayoutParams.MATCH_PARENT,
-                        TableRow.LayoutParams.MATCH_PARENT,
-                        1.0f));
-                button.setPadding(0, 0, 0, 0);
-                button.setMaxWidth(160);
-                button.setMinWidth(160);
-
-                button.setMinHeight(200);
-                button.setMaxHeight(200);
-                button.setOnClickListener(new View.OnClickListener() {
-
-                    @Override
-                    public void onClick(View v) {
-
-                    }
-                });
-                tableRow.addView(button);
-                buttons[row][col] = button;
-            }
-        }
-    }
 }
