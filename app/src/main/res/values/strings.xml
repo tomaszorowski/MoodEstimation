@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MoodEstimation</string>
+    <string name="add_mood">AddMood</string>
+</resources>
