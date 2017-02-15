@@ -2,14 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tomek.moodestimation">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
-        android:name="com.example.tomek.moodestimation.ApplicationGlobalVariables"
+        android:name=".utils.Core"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/start_icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SignIn">
+        android:theme="@style/Platform.AppCompat.Light">
+        <activity android:name=".activities.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,15 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".AddMood" />
-        <activity android:name=".Spane" />
-        <activity android:name=".Panas" />
-        <activity android:name=".Pam" />
-        <activity android:name=".Special" />
-        <activity android:name=".Options" />
-        <activity android:name=".ManageDisplayedScales"></activity>
+        <activity android:name=".activities.SignInActivity" />
+        <activity android:name=".activities.TasksActivity" />
+        <activity android:name=".activities.TestsListActivity" />
+        <activity android:name=".activities.CurrentTestActivity" />
+        <activity android:name=".activities.UnsignedTestsActivity" />
+        <activity android:name=".activities.StatisticsActivity" />
+        <activity android:name=".activities.SelectedCategoryStatisticsActivity" />
+        <activity android:name=".activities.RegisterActivity"></activity>
     </application>
 
 </manifest>

@@ -3,30 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="6e8e114354a905d6f4d12cdf5afcf2c0c1e1a7eb">
-        <dex dex="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_97be3c080a052e77137fd838e63e9e211eba6764\classes.dex" />
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_55f261f0c3dd7b095077bb3394db51d0e2f71e67\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jar="C:\Users\Tomek\Dropbox\projekty\Models\dist\Models.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_6d964a09e041dcc8e6642f97f98d798da7ecc359\classes.dex" />
+        sha1="32c070a5f48fca155a8821b9cd7b020d42c32171">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\Models_f83fd8dcbadf9de27ed51ca3b0495d5b1c028034\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_2a92fa9ba80dca9c5ac99ddcd8e7423c55663262\classes.dex" />
+        sha1="90008744251e746c7b6e3d73e94fab8165acbfe7">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f6a37a91da213956a511eac48820cd64eec37763\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\xstream\GraphView-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bd182a66f13dedad362bfbf992be96de2be5969">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\GraphView-4.0.1_052eb716b18e8c37a277662c799bbda8ee17ff10\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -35,43 +44,88 @@
         optimize="true"
         revision="23.0.3"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_0a5a05fbb4d796e042fc7e5018f4c85750b92c76\classes.dex" />
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_0a5a05fbb4d796e042fc7e5018f4c85750b92c76\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="8915a74a254bf08750ee3011d75545c1ec4a0412">
-        <dex dex="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a5b23f485171a3b041c0a269f4ecc4e56882890f\classes.dex" />
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_1fb3cbbd89be7c216d3f3f0841acf28f7acb4f32\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jar="C:\Users\Tomek\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_589f82f8f03e8cf06e59ab4e14abf232e1ab9366\classes.dex" />
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_f1c15db1d93551bce270a1680872bc4f852d931a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\xstream\kxml2-2.3.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_0f4b4c64349950387ac9b87158047504071a1361\classes.dex" />
+        sha1="ccbc77a5fd907ef863c29f3596c6f54ffa4e9442">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\kxml2-2.3.0_74d30715a90305f00d2da253e4c132014dbb53fa\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="617c7271add2c85681d29fb8ef741322b6433687">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1872688bfc825d7efd50008f95008598b26c5cfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_a16b151e20dbbd07bc173a5d14319e2002d51ae7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\xstream\xstream-1.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3427c153a5ad0f2cfa923528ad8be875c8cb1cff">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\xstream-1.4.3_c4431c750a1ed2e88ee14b1480e52320513b9764\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="C:\Users\Tomek\Documents\MoodEstimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_1ba4dc088e3f497b6c8c37a9ddf4892e450aae19\classes.dex" />
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_aca816c805342398ab3f102a6956632b53025fb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tomek\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_8b81463a2af6108a710af2f43e29c7ba122c7b83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\Tomek\Dropbox\projekty\MoodEstimation-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_46e839c8f5b4a71b2fc236214fcc79d3d22ab65e\classes.dex" />
     </item>
 
 </items>
